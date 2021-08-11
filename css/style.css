@@ -4,8 +4,8 @@ body {
 }
 
 @font-face {
-  font-family: acme;
-  src: url("https://fonts.googleapis.com/css2?family=Acme&display=swap")
+  font-family: "Acme";
+  src: url("https://fonts.googleapis.com/css2?family=Acme&family=Neuton:wght@300&family=Nunito:wght@300&display=swap")
     format("ttf");
   font-family: bellMt;
   src: url("/fonts/BellMT.ttf") format("ttf");
@@ -18,11 +18,15 @@ body {
 }
 
 h2 {
-  font-family: acme;
+  font-family: "Acme";
 }
 
 a {
   font-family: breeserif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
 }
 
 .gunung {
