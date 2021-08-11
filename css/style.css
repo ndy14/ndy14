@@ -5,7 +5,8 @@ body {
 
 @font-face {
   font-family: acme;
-  src: url("/fonts/Acme-Regular.ttf") format("ttf");
+  src: url("https://fonts.googleapis.com/css2?family=Acme&display=swap")
+    format("ttf");
   font-family: bellMt;
   src: url("/fonts/BellMT.ttf") format("ttf");
   font-family: breeserif;
