@@ -1,0 +1,182 @@
+body {
+  background-color: #f2d5e5;
+  font-family: constantia;
+}
+
+@font-face {
+  font-family: acme;
+  src: url("/fonts/Acme-Regular.ttf") format("ttf");
+  font-family: bellMt;
+  src: url("/fonts/BellMT.ttf") format("ttf");
+  font-family: breeserif;
+  src: url("/fonts/BreeSerif-Regular.ttf") format("ttf");
+  font-family: BRITANIC;
+  src: url("/fonts/BRITANIC.ttf") format("ttf");
+  font-family: Constantia;
+  scr: url("/fonts/Constantia.ttf") format("ttf");
+}
+
+h2 {
+  font-family: acme;
+}
+
+a {
+  font-family: breeserif;
+}
+
+.gunung {
+  background-image: url("../img/gunung/g01.png");
+}
+
+img {
+  width: 100%;
+}
+
+.bigContainer {
+  margin-top: 50px;
+  background-image: url("../img/gunung/g01.png"), url("../img/gunung/g02.png");
+  background-repeat: no-repeat;
+}
+
+.container2 {
+  max-width: 900px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: rgb(217, 72, 110);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+}
+
+.container3 {
+  max-width: 900px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: rgb(217, 72, 110);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+}
+
+.container2 .sliderr img {
+  border-radius: 3%;
+}
+
+.sliderr .slick-slide {
+  border: solid 1px rgb(34, 33, 33);
+  border-radius: 3%;
+}
+
+.sliderr .slick-slide img {
+  width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 5px;
+}
+
+.slick-next {
+  right: 5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+}
+
+.slick-dots {
+  bottom: 15px;
+}
+
+.slick-dots li button::before {
+  bottom: 15px;
+  font-size: 12px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+  opacity: 1;
+  color: rgb(255, 154, 181);
+}
+
+.slick-dots li .slick-active button:before {
+  color: #dedede;
+}
+
+.sliderr:not(:hover) .slick-arrow,
+.sliderr:not(:hover) .slick-dots {
+  opacity: 0;
+}
+.slick-arrow,
+.slick-dots {
+  transition: opacity 0.5s ease-out;
+}
+
+#gallery img {
+  opacity: 1;
+}
+
+#icon {
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+#gallery .row * {
+  padding: 0;
+}
+
+.bingkai {
+  border: 5px solid rgb(217, 72, 110);
+  border-radius: 5px;
+}
+/* footer {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(217, 72, 110);
+} */
+
+/* 
+<footer class="" style="background-color: rgb(191, 95, 255);">
+<div class="container">
+    <div class="row justify-content-end">
+        <div class="col-3 mb-lg-2">
+            <p class="fw-bold text-white">Created By <i class="bi bi-suit-heart-fill text-black-50"></i> : <a
+                    class="text-white" href="https://www.instagram.com/mc.l_j/">@Mc.Crazy</a>
+            </p>
+        </div>
+        <div class="col-2 ">
+            <a href="https://www.instagram.com/mc.l_j/">
+                <img src="img/ig.png" width="50px" class="icon" alt="myInstagram">
+            </a>
+        </div>
+        <div class="col-2 ">
+            <a href="https://www.facebook.com/McCrazy29">
+                <img src="img/fb.png" width="50px" id="icon" alt=" myFacebook"></a>
+        </div>
+
+        <div class="col-2">
+            <a href="https://wa.me/+6289697954130">
+                <img src="img/wa.png" width="50px" id="icon" alt=" myWhatsApp">
+            </a>
+        </div>
+
+        <div class="col-2">
+            <a href="https://twitter.com/WullurLino">
+                <img src="img/tw.png" width="50px"  alt=" myTwitter">
+            </a>
+        </div>
+    </div>
+</div>
+</footer> */
