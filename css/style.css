@@ -5,8 +5,7 @@ body {
 
 @font-face {
   font-family: "Acme";
-  src: url("https://fonts.googleapis.com/css2?family=Acme&family=Neuton:wght@300&family=Nunito:wght@300&display=swap")
-    format("ttf");
+  src: url("https://fonts.googleapis.com/css2?family=Acme&family=Neuton:wght@300&family=Nunito:wght@300&display=swap") format("ttf");
   font-family: bellMt;
   src: url("/fonts/BellMT.ttf") format("ttf");
   font-family: breeserif;
@@ -32,6 +31,12 @@ p {
 img {
   width: 100%;
 }
+
+#gallery {
+  background-color: #f3b6d8;
+}
+
+
 
 /* .bigContainer {
   margin-top: 50px;
@@ -113,6 +118,7 @@ img {
 .sliderr:not(:hover) .slick-dots {
   opacity: 0;
 }
+
 .slick-arrow,
 .slick-dots {
   transition: opacity 0.5s ease-out;
@@ -142,6 +148,7 @@ section {
   border: 5px solid rgb(217, 72, 110);
   border-radius: 5px;
 }
+
 /* footer {
   height: 50px;
   width: 100%;
